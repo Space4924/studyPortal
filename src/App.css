@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.App{
+    margin:0 50px;
+
+}
+.logo{
+    width: 220px;
+}
+.display{
+    display: inline-block;
+    align-items: center;
+    background-color: red;
+}
+.intro{
+   background-image: url(https://studyportals.com/wp-content/uploads/2016/07/ForStudentsCover_2.jpg);
+   background-size: cover !important;
+   background-position: center;
+   padding: 110px 0px;
+   box-sizing: border-box;
+   display: block;
+}
+.header{
+    position: sticky;
+    top:0px;
+    background-color: white;
+}
+.text{
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 2vw;
+    margin-left: 10vw;
+
+}
+.course{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    max-width: 100%;
+    max-height: auto;
+    height: auto;
+    box-sizing: border-box;
+    vertical-align: center;
+    width: 35%;
+    /* height: 45%; */
+}
+.color-border{
+    position: relative;
+    height: 5px;
+    background-color: #247BA0;
+}
+
